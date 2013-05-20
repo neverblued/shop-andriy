@@ -12,7 +12,7 @@
   :version "0.2"
   :author "Дмитрий Пинский <demetrius@neverblued.info>"
   :licence "LLGPL"
-  :depends-on (#:shop #:clsql #:cl-cron)
+  :depends-on (#:shop #:mssql #:cl-cron)
   :serial t
   :components ((:file "package")
                (:file "update")
